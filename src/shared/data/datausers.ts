@@ -12,23 +12,12 @@ export interface userDataType {
 
 export const userData: userDataType[] = [
     {
-        "id": "638604dff2fb766f7763ffbe",
-        "index": 0,
-        "picture": "http://placehold.it/32x32",
-        "age": 20,
-        "name": "Emily Sharpe",
-        "gender": "female",
-        "email": "emilysharpe@inquala.com",
-        "phone": "+1 (993) 527-2265",
-        "address": "283 Seba Avenue, Kaka, Kansas, 8779"
-    },
-    {
         "id": "638604dfd43f847ff9ac36d5",
         "index": 1,
         "picture": "http://placehold.it/32x32",
         "age": 37,
         "name": "Horne Park",
-        "gender": "male",
+        "gender": "Masculino",
         "email": "hornepark@inquala.com",
         "phone": "+1 (912) 512-2874",
         "address": "326 Middagh Street, Magnolia, Guam, 4128"
@@ -39,7 +28,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 23,
         "name": "Lang Heath",
-        "gender": "male",
+        "gender": "Masculino",
         "email": "langheath@inquala.com",
         "phone": "+1 (897) 508-2423",
         "address": "124 Lott Place, Felt, Florida, 5377"
@@ -50,7 +39,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 26,
         "name": "Kane Duran",
-        "gender": "male",
+        "gender": "Masculino",
         "email": "kaneduran@inquala.com",
         "phone": "+1 (925) 507-3562",
         "address": "989 Meserole Street, Joppa, Montana, 7810"
@@ -61,7 +50,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 31,
         "name": "English Randall",
-        "gender": "male",
+        "gender": "Masculino",
         "email": "englishrandall@inquala.com",
         "phone": "+1 (865) 510-2631",
         "address": "989 Emerald Street, Drytown, Arkansas, 4385"
@@ -72,7 +61,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 34,
         "name": "Webster Giles",
-        "gender": "male",
+        "gender": "Masculino",
         "email": "webstergiles@inquala.com",
         "phone": "+1 (990) 464-3681",
         "address": "379 Commerce Street, Barrelville, Maine, 1732"
@@ -83,7 +72,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 37,
         "name": "Winnie Valdez",
-        "gender": "female",
+        "gender": "Feminino",
         "email": "winnievaldez@inquala.com",
         "phone": "+1 (868) 552-3903",
         "address": "429 Hamilton Avenue, Elbert, District Of Columbia, 9526"
@@ -94,7 +83,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 38,
         "name": "Beverley Mcgowan",
-        "gender": "female",
+        "gender": "Feminino",
         "email": "beverleymcgowan@inquala.com",
         "phone": "+1 (926) 483-2302",
         "address": "253 Glendale Court, Coventry, Connecticut, 2430"
@@ -105,7 +94,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 38,
         "name": "Francine Oneill",
-        "gender": "female",
+        "gender": "Feminino",
         "email": "francineoneill@inquala.com",
         "phone": "+1 (988) 579-2952",
         "address": "160 Fleet Walk, Baden, Delaware, 3165"
@@ -116,7 +105,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 30,
         "name": "Estrada Henry",
-        "gender": "male",
+        "gender": "Masculino",
         "email": "estradahenry@inquala.com",
         "phone": "+1 (830) 429-2436",
         "address": "645 Reeve Place, Lisco, Virgin Islands, 1478"
@@ -127,7 +116,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 25,
         "name": "Salas Andrews",
-        "gender": "male",
+        "gender": "Masculino",
         "email": "salasandrews@inquala.com",
         "phone": "+1 (829) 560-2810",
         "address": "852 Atlantic Avenue, Wyano, Oklahoma, 350"
@@ -138,7 +127,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 26,
         "name": "Hanson Johns",
-        "gender": "male",
+        "gender": "Masculino",
         "email": "hansonjohns@inquala.com",
         "phone": "+1 (806) 484-2981",
         "address": "999 Scholes Street, Williams, Texas, 7758"
@@ -149,7 +138,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 37,
         "name": "Kidd Hays",
-        "gender": "male",
+        "gender": "Masculino",
         "email": "kiddhays@inquala.com",
         "phone": "+1 (806) 592-4000",
         "address": "952 Union Street, Yonah, Michigan, 4442"
@@ -160,7 +149,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 29,
         "name": "Estela Dalton",
-        "gender": "female",
+        "gender": "Feminino",
         "email": "esteladalton@inquala.com",
         "phone": "+1 (943) 475-2273",
         "address": "825 Riverdale Avenue, Avoca, Alaska, 1244"
@@ -171,7 +160,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 36,
         "name": "Lelia Kelley",
-        "gender": "female",
+        "gender": "Feminino",
         "email": "leliakelley@inquala.com",
         "phone": "+1 (888) 474-3074",
         "address": "227 Bond Street, Vandiver, South Carolina, 8559"
@@ -182,7 +171,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 29,
         "name": "Felecia Hendrix",
-        "gender": "female",
+        "gender": "Feminino",
         "email": "feleciahendrix@inquala.com",
         "phone": "+1 (907) 502-3061",
         "address": "239 Jardine Place, Emory, Wisconsin, 9864"
@@ -193,7 +182,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 23,
         "name": "Dunlap Nieves",
-        "gender": "male",
+        "gender": "Masculino",
         "email": "dunlapnieves@inquala.com",
         "phone": "+1 (962) 565-3729",
         "address": "720 Judge Street, Haring, Minnesota, 553"
@@ -204,7 +193,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 35,
         "name": "Lydia Schwartz",
-        "gender": "female",
+        "gender": "Feminino",
         "email": "lydiaschwartz@inquala.com",
         "phone": "+1 (827) 479-2019",
         "address": "776 Powers Street, Odessa, Washington, 6707"
@@ -215,7 +204,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 38,
         "name": "Meagan Walsh",
-        "gender": "female",
+        "gender": "Feminino",
         "email": "meaganwalsh@inquala.com",
         "phone": "+1 (877) 541-3507",
         "address": "265 Ford Street, Beaulieu, New Jersey, 2278"
@@ -226,7 +215,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 30,
         "name": "Kimberley Huber",
-        "gender": "female",
+        "gender": "Feminino",
         "email": "kimberleyhuber@inquala.com",
         "phone": "+1 (988) 600-2960",
         "address": "747 Bay Street, Robinson, Pennsylvania, 5842"
@@ -237,7 +226,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 31,
         "name": "Maxwell Greer",
-        "gender": "male",
+        "gender": "Masculino",
         "email": "maxwellgreer@inquala.com",
         "phone": "+1 (965) 481-2043",
         "address": "602 Gardner Avenue, Wawona, Puerto Rico, 7520"
@@ -248,7 +237,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 37,
         "name": "Hurley Aguilar",
-        "gender": "male",
+        "gender": "Masculino",
         "email": "hurleyaguilar@inquala.com",
         "phone": "+1 (853) 410-2887",
         "address": "135 Vermont Street, Sisquoc, Kentucky, 3644"
@@ -259,7 +248,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 32,
         "name": "Ollie Gilmore",
-        "gender": "female",
+        "gender": "Feminino",
         "email": "olliegilmore@inquala.com",
         "phone": "+1 (884) 538-2639",
         "address": "704 Hampton Avenue, Needmore, South Dakota, 967"
@@ -270,7 +259,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 29,
         "name": "Dale Bean",
-        "gender": "female",
+        "gender": "Feminino",
         "email": "dalebean@inquala.com",
         "phone": "+1 (920) 533-3088",
         "address": "484 Conway Street, Hiko, Maryland, 4435"
@@ -281,7 +270,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 25,
         "name": "Doyle Tyler",
-        "gender": "male",
+        "gender": "Masculino",
         "email": "doyletyler@inquala.com",
         "phone": "+1 (883) 447-3937",
         "address": "840 Cambridge Place, Sidman, Massachusetts, 9195"
@@ -292,7 +281,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 23,
         "name": "Carolina Pruitt",
-        "gender": "female",
+        "gender": "Feminino",
         "email": "carolinapruitt@inquala.com",
         "phone": "+1 (953) 519-2473",
         "address": "684 Grace Court, Talpa, Indiana, 6817"
@@ -303,7 +292,7 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 20,
         "name": "Jaclyn Delgado",
-        "gender": "female",
+        "gender": "Feminino",
         "email": "jaclyndelgado@inquala.com",
         "phone": "+1 (932) 416-3778",
         "address": "622 Boerum Street, Jamestown, Federated States Of Micronesia, 9122"
@@ -314,9 +303,20 @@ export const userData: userDataType[] = [
         "picture": "http://placehold.it/32x32",
         "age": 28,
         "name": "Castaneda Bright",
-        "gender": "male",
+        "gender": "Masculino",
         "email": "castanedabright@inquala.com",
         "phone": "+1 (999) 585-3264",
         "address": "389 Tampa Court, Why, Colorado, 8752"
-    }
+    },
+    {
+        "id": "638604dff2fb766f7763ffbe",
+        "index": 28,
+        "picture": "http://placehold.it/32x32",
+        "age": 20,
+        "name": "Emily Sharpe",
+        "gender": "Feminino",
+        "email": "emilysharpe@inquala.com",
+        "phone": "+1 (993) 527-2265",
+        "address": "283 Seba Avenue, Kaka, Kansas, 8779"
+    },
 ]

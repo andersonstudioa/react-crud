@@ -24,7 +24,7 @@ const columns: GridColDef[] = [
     {
         field: 'gender',
         headerName: 'Gênero',
-        width: 80,
+        width: 90,
         editable: false,
     },
     {
