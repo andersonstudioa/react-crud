@@ -7,7 +7,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import { menuItensTypes } from '../../shared/data/datamenu'
+import { menuItensTypes } from '../../shared/data/datamenu';
 import Icon from '@mui/material/Icon';
 import {
     BrowserRouter as Router,
@@ -40,8 +40,8 @@ const LeftMenu = (props: PropsType) => {
         <div style={{ width: '100%' }}>
             <List>
                 {props.items.map((item) => (
-                    <Link to={item.path}>
-                        <ListItem key={item.name} disablePadding>
+                    <Link to={item.path} key={item.name}>
+                        <ListItem disablePadding>
                             <ListItemButton>
                                 <ListItemIcon>
                                     <Icon color="secondary">{item.icon}</Icon>
