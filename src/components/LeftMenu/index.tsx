@@ -9,16 +9,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import { menuItensTypes } from '../../shared/data/datamenu';
 import Icon from '@mui/material/Icon';
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
-    Link
-} from 'react-router-dom';
-import Home from '../../pages/Home';
-import UserList from '../../pages/UsersList';
-import UserAdd from '../../pages/UserAdd';
-
+import { Link } from 'react-router-dom';
 
 const drawerWidth = 240;
 
@@ -69,49 +60,36 @@ const LeftMenu = (props: PropsType) => {
     //const container = window !== undefined ? () => window().document.body : undefined;
 
     return (
-        <Router>
-            <Box sx={{ display: 'flex', alignItems: 'flex-start' }}>
-                {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
-                <Drawer
-                    anchor="left"
-                    variant="permanent"
-                    sx={{
+
+        <Box sx={{ display: 'flex', alignItems: 'flex-start' }}>
+            {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
+            <Drawer
+                anchor="left"
+                variant="permanent"
+                sx={{
+                    width: drawerWidth,
+                    flexShrink: 0,
+                    '& .MuiDrawer-paper': {
                         width: drawerWidth,
-                        flexShrink: 0,
-                        '& .MuiDrawer-paper': {
-                            width: drawerWidth,
-                            boxSizing: 'border-box',
-                        },
-                    }}
-                >
-                    {drawer}
-                </Drawer>
-                <Drawer
-                    variant="permanent"
-                    sx={{
-                        display: { xs: 'none', sm: 'block' },
-                        '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
-                    }}
-                    open
-                >
-                    {drawer}
-                </Drawer>
-                <Routes>
-                    <Route
-                        path="/"
-                        element={<Home title="Página Inicial" />}
-                    />
-                    <Route
-                        path="/list-users"
-                        element={<UserList title="Listar usuários" />}
-                    />
-                    <Route
-                        path="/add-users"
-                        element={<UserAdd title="Adicionar Usuários" />}
-                    />
-                </Routes>
-            </Box>
-        </Router>
+                        boxSizing: 'border-box',
+                    },
+                }}
+            >
+                {drawer}
+            </Drawer>
+            <Drawer
+                variant="permanent"
+                sx={{
+                    display: { xs: 'none', sm: 'block' },
+                    '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+                }}
+                open
+            >
+                {drawer}
+            </Drawer>
+
+        </Box>
+
     )
 }
 

@@ -1,6 +1,4 @@
-import CssBaseline from '@mui/material/CssBaseline';
-import LeftMenu from './components/LeftMenu';
-import { menuItens } from './shared/data/datamenu';
+import RoutesApp from "./routes"
 
 interface Props {
   /**
@@ -8,15 +6,17 @@ interface Props {
    * You won't need it on your project.
    */
   window?: () => Window;
+  login: boolean;
 
 }
+
+localStorage.setItem("login", "false");
 
 export default function ResponsiveDrawer(props: Props) {
 
   return (
     <>
-      <CssBaseline />
-      <LeftMenu items={menuItens} />
+      <RoutesApp />
     </>
 
   );

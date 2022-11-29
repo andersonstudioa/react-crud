@@ -72,7 +72,7 @@ const Form = (props: FormType) => {
                         </Grid>
                         <Grid xs={12} md={3}>
                             <TextField
-                                label="age"
+                                label="Idade"
                                 id="age"
                                 sx={{ m: 0, width: '100%' }}
                             />
