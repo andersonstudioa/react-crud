@@ -1,4 +1,7 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 import RoutesApp from "./routes"
+import './index.css'
 
 interface Props {
   /**
@@ -12,12 +15,8 @@ interface Props {
 
 localStorage.setItem("login", "false");
 
-export default function ResponsiveDrawer(props: Props) {
-
-  return (
-    <>
-      <RoutesApp />
-    </>
-
-  );
-}
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+  <React.StrictMode>
+    <RoutesApp />
+  </React.StrictMode>
+)
